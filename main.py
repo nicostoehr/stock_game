@@ -753,8 +753,7 @@ def main():
             elif event.type == DIST_EVENT:
 
                 # RANDOM EVENT SELECTOR MISSING HERE
-                pygame.time.set_timer(TEST_EVENT, 1000)
-                print("LUL")
+                pass
 
             # 10.000 ms EVENT
 
@@ -779,8 +778,7 @@ def main():
             # DISTED EVENTS
 
             elif event.type == TEST_EVENT:
-                print("LUL 1s after")
-                pygame.time.set_timer(TEST_EVENT, 0)
+                pass
 
             # KEYEVENTS
 
